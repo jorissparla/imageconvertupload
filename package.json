@@ -12,6 +12,16 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "express": "^4.16.2"
-  }
+    "express": "^4.16.2",
+    "mssql": "^4.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorissparla/imageconvertupload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorissparla/imageconvertupload/issues"
+  },
+  "homepage": "https://github.com/jorissparla/imageconvertupload#readme"
 }
