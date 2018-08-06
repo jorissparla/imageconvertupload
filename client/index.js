@@ -1,9 +1,4 @@
-const config = {
-  user: 'XX',
-  password: 'XXXXX',
-  server: 'XXXXX',
-  database: 'XXXXXX'
-};
+const config = require('./config');
 const fs = require('fs');
 const sql = require('mssql');
 const myQuery = `select acc_navid+'.'+acc_lastname name, pic_base64 image from v_accounts A JOIN t_accounts_picture P on acc_UIC=accountId where acc_firstname='Sue'`;
